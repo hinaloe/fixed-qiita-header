@@ -7,7 +7,7 @@ window.onload = function () {
     var style  = window.getComputedStyle(header);
     var margin = Number(style.marginBottom.replace('px', ''));
     var feedPage = document.getElementsByClassName("feedPage")[0];
-    if (feedPage) feedPage.style.paddingTop = 20;
+    if (feedPage) feedPage.style.paddingTop = '20px';
 
     header.style.position = 'fixed';
     header.style.top      = 0;
